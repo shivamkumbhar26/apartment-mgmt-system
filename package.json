@@ -1,0 +1,18 @@
+{
+  "name": "apartment-society-manager-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Apartment Society Management System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test_full_system.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "crypto-js": "^4.2.0",
+    "dotenv": "^18.0.4",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.16.0"
+  }
+}
